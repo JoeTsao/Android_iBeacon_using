@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="給藥系統"
+            android:layout_height="match_parent"
+            android:id="@+id/give_serverxml"
+            android:layout_width="match_parent"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="姓名："
+            android:id="@+id/logintextView"
+            android:layout_width="150dp"
+            android:textSize="30sp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/loginname_view"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:textAlignment="viewStart" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:gravity="center"
+            android:text="xxxx"
+            android:id="@+id/view_loginyear"
+            android:textSize="20sp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:checkedButton="@+id/phybutton_morning"
+        android:orientation="horizontal"
+
+        android:id="@+id/radiobt1">
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <RadioButton
+
+            android:text="早"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/phybutton_morning"
+            android:layout_weight="1.00"
+            android:checked="false"
+            android:duplicateParentState="false"
+            android:textAlignment="center" />
+
+        <RadioButton
+            android:text="中"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/phybutton_noon"
+            android:layout_weight="1.00"
+            android:textAlignment="center"
+            android:checked="false" />
+
+        <RadioButton
+            android:text="晚"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/phybutton_night"
+            android:layout_weight="1.01"
+            android:textAlignment="center" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </RadioGroup>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/give_bigview" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:gravity="center"
+            android:text="結束"
+            android:layout_height="wrap_content"
+            android:id="@+id/giveendbutton"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

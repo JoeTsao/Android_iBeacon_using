@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="現在時間："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/roomui_TimeTV"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_weight="0.01" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:text="您已進入病房　　號房"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/roomui_RoomnumTV"
+        android:textSize="25sp"
+        android:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:text="病房人數： 人"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/roomui_PCTV"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:text="時段:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/roomui_Time2TV"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="選擇病人"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/roomui_choosePBT"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimary" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="完成巡房"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/roomui_chkroomdoneBT"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="離開房間"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/roomui_leftroomBT"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+</LinearLayout>

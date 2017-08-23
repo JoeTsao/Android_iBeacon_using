@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/LL1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="日期:  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_text"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="x年x月x日"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_show"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <Space android:layout_width="match_parent" android:layout_height="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:weightSum="720"
+        >
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="5dp" />
+
+        <TextView
+            android:id="@+id/tp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:text="體溫:  "
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tp_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:textAlignment="viewStart"
+            android:text="度c" />
+
+    </LinearLayout>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:weightSum="720"
+        >
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="5dp" />
+
+        <TextView
+            android:id="@+id/bp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:text="血壓:  "
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/bp_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:textAlignment="viewStart"
+            android:text="mmHg" />
+
+    </LinearLayout>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:weightSum="720"
+        >
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="5dp" />
+
+        <TextView
+            android:id="@+id/spo2_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:text="血氧:  "
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/spo2_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:textAlignment="viewStart"
+            android:text="%" />
+
+    </LinearLayout>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp" />
+
+
+</LinearLayout>
+

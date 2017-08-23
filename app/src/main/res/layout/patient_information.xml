@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="病人基本個資"
+            android:layout_height="match_parent"
+            android:id="@+id/patientinf_tview"
+            android:layout_width="match_parent"
+            android:textSize="40sp" />
+
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="姓名："
+            android:id="@+id/nametextView"
+            android:layout_width="150dp"
+            android:textSize="30sp"
+            android:layout_height="50dp" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:id="@+id/patientname_view"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="性別："
+            android:id="@+id/sextextView"
+            android:layout_width="150dp"
+            android:textSize="30sp"
+            android:layout_height="50dp" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/patientsex_view"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="年齡："
+            android:id="@+id/agetextView"
+            android:layout_width="150dp"
+            android:textSize="30sp"
+            android:layout_height="50dp" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/patientage_view"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="入住日期："
+            android:id="@+id/tenterdatetextView"
+            android:layout_width="150dp"
+            android:textSize="30sp"
+            android:layout_height="50dp" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/patientexterdate_view"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="病症："
+            android:id="@+id/diseasetextView"
+            android:layout_width="150dp"
+            android:textSize="30sp"
+            android:layout_height="50dp" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/patientdisease_view"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="注意事項："
+            android:id="@+id/remarktextView"
+            android:layout_width="150dp"
+            android:textSize="30sp"
+            android:layout_height="50dp" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:id="@+id/patientremark_view"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

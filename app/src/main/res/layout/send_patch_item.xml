@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:descendantFocusability="blocksDescendants">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="65dp">
+
+            <TextView
+                android:text="1."
+                android:layout_height="match_parent"
+                android:id="@+id/NBJobNumTV"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/TVline"
+                android:textSize="5sp"
+                android:background="@color/common_plus_signin_btn_text_light_default"
+                android:elevation="1dp"
+                android:text="."
+                android:layout_weight="1" />
+
+            <Space
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="190dp">
+
+            <TextView
+                android:text="BBBBB"
+                android:layout_height="match_parent"
+                android:id="@+id/NBJobTextTV"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                android:layout_width="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="20dp">
+
+            <Space
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="14dp" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:id="@+id/textView16"
+                android:background="@color/common_plus_signin_btn_text_light_default"
+                android:elevation="1dp"
+                android:text="."
+                android:layout_weight="1"
+                android:textSize="1sp"
+                android:layout_width="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="95dp">
+
+            <Space android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="25dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/NBJobCheck"
+                android:layout_weight="1" />
+
+            <Space android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="25dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+</LinearLayout>

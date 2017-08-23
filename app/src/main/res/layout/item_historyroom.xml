@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/LL1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="病房:  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_text"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/show_roomnum"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+    <Space android:layout_width="match_parent" android:layout_height="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:weightSum="720"
+        >
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="5dp" />
+
+        <TextView
+            android:id="@+id/tp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:text="完成時間:  "
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/show_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:textAlignment="viewStart"
+            android:text="x年x月x日" />
+
+    </LinearLayout>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:weightSum="720"
+        >
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="5dp" />
+
+        <TextView
+            android:id="@+id/bp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:text="護士:  "
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/show_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:weightSum="720"
+        >
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="5dp" />
+
+        <TextView
+            android:id="@+id/range_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:text="時段:  "
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/show_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:textAlignment="viewStart" />
+
+    </LinearLayout>
+
+    <Space android:layout_width="match_parent" android:layout_height="5dp" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal"
+        android:id="@+id/conditions_RG"
+        android:checkedButton="@+id/conditions_allRB"
+        android:gravity="center">
+
+        <RadioButton
+            android:text="顯示全部"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/conditions_allRB"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:text="依條件顯示"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/conditions_selectRB"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp">
+
+        <CheckBox
+            android:text="姓名"
+            android:layout_height="match_parent"
+            android:id="@+id/conditions_nameCB"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_width="80dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/conditions_nameET"
+            android:layout_weight="0.56" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp">
+
+        <CheckBox
+            android:text="完成\n日期"
+            android:layout_height="match_parent"
+            android:id="@+id/conditions_donetimeCB"
+            android:textSize="20sp"
+            android:layout_width="80dp" />
+
+        <EditText
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/conditions_donetimeYET"
+            android:hint="年(可空白)"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="92dp"
+            android:layout_height="match_parent"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/conditions_donetimeMET"
+            android:hint="月(可空白)"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="91dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:id="@+id/conditions_donetimeDET"
+            android:inputType="date"
+            android:hint="日(可空白)"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp">
+
+        <CheckBox
+            android:text="時段"
+            android:layout_height="match_parent"
+            android:id="@+id/conditions_timerangeCB"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_width="80dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/conditions_timerangeSP"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="0.08" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp">
+
+        <CheckBox
+            android:text="房號"
+            android:layout_height="match_parent"
+            android:id="@+id/conditions_roomNoCB"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_width="80dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/conditions_roomNoET"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="19dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="53dp">
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="43dp" />
+
+        <TextView
+            android:text="排序依據:"
+            android:layout_height="match_parent"
+            android:id="@+id/textView12"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="89dp" />
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="91dp" />
+
+        <TextView
+            android:text="方式:"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView14"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="0.63" />
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="30dp"
+            android:layout_weight="0.49" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="42dp" />
+
+        <Spinner
+            android:layout_height="match_parent"
+            android:id="@+id/conditions_spinner"
+            android:gravity="right"
+            android:layout_width="107dp" />
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="71dp" />
+
+        <Spinner
+            android:layout_width="111dp"
+            android:layout_height="match_parent"
+            android:id="@+id/conditions_spinner2"
+            android:gravity="right" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="52dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="搜尋"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/conditions_serchBT"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorAccent" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

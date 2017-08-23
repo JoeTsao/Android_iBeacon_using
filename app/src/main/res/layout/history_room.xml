@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="巡房歷史紀錄查詢表"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:id="@+id/title"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:gravity="center_vertical" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="設定篩選條件"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/conditionssetBT"
+                android:layout_weight="0.38"
+                android:textSize="20sp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorPrimary" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ListView
+                android:id="@+id/list_his"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerHeight="2dp"
+                android:scrollbars="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:addStatesFromChildren="false"
+                android:layout_weight="0.35"
+                android:headerDividersEnabled="false"
+                android:footerDividersEnabled="false"
+                android:divider="@color/colorPrimary" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

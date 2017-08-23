@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/LLT1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="65dp">
+
+            <TextView
+                android:text="1."
+                android:layout_height="match_parent"
+                android:id="@+id/JobNumTV2"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="20dp">
+
+            <Space
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_width="137dp">
+
+            <TextView
+                android:text="尋視509房"
+                android:layout_height="match_parent"
+                android:id="@+id/JobTextTV2"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.08" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="20dp">
+
+            <Space
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="95dp">
+
+            <TextView
+                android:text="已完成成"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView9"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:gravity="center" />
+
+            <Space android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="25dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+</LinearLayout>

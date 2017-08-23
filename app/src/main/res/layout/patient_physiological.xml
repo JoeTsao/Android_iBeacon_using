@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="登錄生理資訊"
+            android:layout_height="99dp"
+            android:id="@+id/Login_physiological"
+            android:layout_width="match_parent"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="姓名："
+            android:id="@+id/logintextView"
+            android:layout_width="150dp"
+            android:textSize="30sp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:id="@+id/loginname_view"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:textAlignment="viewStart" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:gravity="center"
+            android:text="xxxx"
+            android:id="@+id/view_loginyear"
+            android:textSize="20sp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:text="目前時段:  晚上"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/textView6"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="體溫："
+            android:id="@+id/temperature"
+            android:textSize="30sp"
+            android:layout_height="50dp"
+            android:layout_width="100dp" />
+
+
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <EditText
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:id="@+id/patient_tp"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:fontFamily="sans-serif"
+            android:inputType="numberDecimal" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="℃"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/tempreatureTV"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textAlignment="textStart" />
+
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="血壓："
+            android:id="@+id/pressure"
+            android:textSize="30sp"
+            android:layout_height="50dp"
+            android:layout_width="100dp" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <EditText
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/patient_blood"
+            android:layout_weight="1"
+            android:layout_width="150dp" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="mmHg"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/blood"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:textAlignment="textStart" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="血氧："
+            android:id="@+id/oxygen"
+            android:textSize="30sp"
+            android:layout_height="50dp"
+            android:layout_width="100dp" />
+
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <EditText
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/patient_spo2"
+            android:layout_weight="1"
+            android:layout_width="150dp" />
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="%"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/O2"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textAlignment="textStart" />
+
+
+
+        <Space
+            android:layout_height="50dp"
+            android:layout_width="10dp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button
+            android:gravity="center"
+            android:text="結束"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginendbutton"
+            android:layout_width="100dp"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+
+</LinearLayout>

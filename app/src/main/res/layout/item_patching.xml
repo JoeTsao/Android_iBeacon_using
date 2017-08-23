@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="一號藥車:"
+            android:layout_width="188dp"
+            android:id="@+id/carnum"
+            android:layout_height="50dp"
+            android:textSize="40sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="已派遣"
+            android:layout_width="match_parent"
+            android:id="@+id/statushow"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:textSize="40sp"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="使用者:"
+            android:layout_width="191dp"
+            android:id="@+id/caruser"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="盧世楷"
+            android:layout_height="match_parent"
+            android:id="@+id/showid"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

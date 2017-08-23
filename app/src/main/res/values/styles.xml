@@ -1,0 +1,39 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat">
+        <!--Holo.Light.Dialog.MinWidth
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="@style/Theme.AppCompat" />
+
+    <style name="AppTheme.PopupOverlay" parent="@style/Theme.AppCompat" />
+
+    <style name="won" parent="Theme.AppCompat.NoActionBar" >
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:colorForeground">@color/foreground_material_dark</item>
+        <item name="android:textColorPrimary">@color/common_google_signin_btn_text_light_pressed</item>
+        <item name="android:textColorSecondaryInverse">
+            @color/common_google_signin_btn_text_light_focused
+        </item>
+        <item name="android:windowBackground">?attr/textColorAlertDialogListItem</item>
+    </style>
+
+</resources>

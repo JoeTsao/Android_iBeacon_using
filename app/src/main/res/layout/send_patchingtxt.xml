@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="派工資料 修改/上傳"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_weight="0.08"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:gravity="center">
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="20dp" />
+
+        <Button
+            android:text="全選"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectall"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimary" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/choosecon"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="5dp" />
+
+        <TextView
+            android:text="編號"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jobnum"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="55dp" />
+
+        <TextView
+            android:text="工作內容"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jobtext"
+            android:layout_weight="1"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="89dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="　選取　"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/donecheck"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.73"
+        android:id="@+id/jobview" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/jobedit"
+        android:gravity="top|left"
+        android:singleLine="false"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02">
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="新增"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_button"
+            android:layout_width="65dp"
+            android:textSize="20sp"
+            android:background="@color/colorAccent" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="刪除"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete_button"
+            android:layout_width="65dp"
+            android:textSize="20sp"
+            android:background="@color/colorAccent" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="上傳/修改"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_button"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:background="@color/colorAccent" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="返回"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:layout_width="65dp"
+            android:textSize="20sp"
+            android:background="@color/colorAccent" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="0.02" />
+
+</LinearLayout>

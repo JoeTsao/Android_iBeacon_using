@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp">
+
+        <TextView
+            android:text="醫院登入系統"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/welcomemsg"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="?attr/actionMenuTextColor"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="0.52"
+        android:gravity="center">
+
+        <Space
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.55" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="286dp">
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="輸入帳號"
+            android:singleLine="false"
+            android:selectAllOnFocus="false"
+            android:inputType="textVisiblePassword"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/etUsername"
+            android:ems="10"
+            android:hint="輸入密碼"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/bSignIn"
+            android:layout_height="wrap_content"
+            android:text="登入"
+            android:textSize="30dp"
+            android:background="@color/colorAccent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="200dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

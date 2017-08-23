@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mustcsie.test">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".ibeacon.THLApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="明新科大醫院測試系統"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity android:name=".nurseboss.check_scheduleActivity" />
+        <activity android:name=".nurseboss.lookphy" />
+        <activity android:name=".nurse.choose_nurse" />
+        <activity android:name=".nurse.check_patching" />
+        <activity android:name=".nurse.carjob" />
+        <activity android:name=".nurse.chooscar"/>
+        <activity android:name=".nurse.choose_nurseboss" />
+        <activity android:name=".patient.patient_info" />
+        <activity android:name=".patient.patientActivity" />
+        <activity android:name=".patient.patient_physiologicalActivity" />
+        <activity android:name=".patient.patient_checkActivity" />
+        <activity android:name=".patient.roomUI" />
+        <activity android:name=".ui.UIMain" />
+        <activity android:name=".nurseboss.choosepatient" />
+        <activity android:name=".nballpatient.patientdatas" />
+        <activity android:name=".nurseboss.patching" />
+        <activity android:name=".nurseboss.sendpatient_txt" />
+        <activity android:name=".nurseboss.history" />
+        <activity android:name=".nurseboss.historyconditions" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="left|center"
+	android:id="@+id/LL1">
+
+	<Space
+		android:layout_width="match_parent"
+		android:layout_height="5dp" />
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_height="wrap_content"
+		android:weightSum="1"
+		android:layout_width="wrap_content"
+		android:gravity="left">
+
+		<Space
+			android:layout_width="10dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1" />
+
+		<TextView
+			android:text="病房:  "
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView5"
+			android:textColor="#FFFFFFFF"
+			android:textSize="25sp" />
+
+		<TextView
+            android:id="@+id/it3_text1"
+			android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:textColor="#FFFFFFFF"
+			android:text="509"
+            android:textAlignment="viewStart"
+			android:textStyle="normal|bold"
+			android:layout_width="wrap_content"
+			android:layout_weight="0.04"
+			android:textSize="25sp" />
+
+		<TextView
+            android:text="房"
+			android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+			android:textColor="#FFFFFFFF"
+			android:layout_width="wrap_content"
+			android:textAlignment="viewStart"
+			android:textSize="25sp" />
+
+		<Space
+			android:layout_width="50dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1" />
+
+		<TextView
+			android:text="已完成"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/it3_text3"
+			android:layout_weight="1"
+			android:textSize="25sp" />
+
+		<Space
+			android:layout_width="10dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+	</LinearLayout>
+
+	<Space android:layout_width="match_parent" android:layout_height="5dp" />
+
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:weightSum="720"
+        >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:paddingLeft="2dp"
+            android:text=" "
+        />
+
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+            android:paddingLeft="2dp"
+            android:text="距離:"
+			android:textSize="25sp" />
+
+		<TextView
+            android:id="@+id/it3_text5"
+            android:layout_weight="220"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#CCFFFFFF"
+			android:textSize="25sp" />
+
+	</LinearLayout>
+
+	<Space android:layout_width="match_parent" android:layout_height="5dp" />
+
+</LinearLayout>
+

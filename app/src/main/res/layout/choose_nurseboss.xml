@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/welcomemsg"
+            android:layout_weight="2.00"
+            android:textSize="27sp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="護理長您好"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView１"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="25sp"
+            android:layout_weight="0.70" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.18" />
+
+        <Button
+            android:text="登出"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.DeviceDefault.Light.Button"
+            android:elevation="0dp"
+            android:textAlignment="center"
+            android:id="@+id/logoutnurseboss"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:layout_weight="0.20"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_weight="0.00"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        android:layout_weight="0.15">
+
+        <Button
+            android:text="查看巡房進度"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/big_nurse_check"
+            android:layout_width="150dp"
+            style="@android:style/Widget.DeviceDefault.Light.Button"
+            android:elevation="0dp"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="0.23"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="瀏覽病人資料"
+            android:layout_height="wrap_content"
+            android:id="@+id/big_nurse_information"
+            android:layout_width="150dp"
+            style="@android:style/Widget.DeviceDefault.Light.Button"
+            android:elevation="0dp"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="11dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="0.27"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="藥車額外派工"
+            android:layout_height="wrap_content"
+            android:id="@+id/big_nurse_patching"
+            android:layout_width="150dp"
+            style="@android:style/Widget.DeviceDefault.Light.Button"
+            android:elevation="0dp"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_weight="0.04" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:text="巡房歷史紀錄"
+            android:layout_height="wrap_content"
+            android:id="@+id/big_nurse_history"
+            android:layout_width="150dp"
+            style="@android:style/Widget.DeviceDefault.Light.Button"
+            android:elevation="0dp"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+</LinearLayout>

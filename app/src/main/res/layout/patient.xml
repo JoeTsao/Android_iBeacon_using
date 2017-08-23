@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:text="基本個資"
+
+            android:id="@+id/patient_information"
+            android:elevation="0dp"
+            android:visibility="visible"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <Button
+            android:text="登錄生理資訊"
+
+            android:id="@+id/patient_physiological"
+            android:elevation="0dp"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+</LinearLayout>
